@@ -13,6 +13,8 @@ import CookingTips from './components/CookingTips';
 import Milestones from './components/Milestones';
 import OurJourney from './components/OurJourney';
 import Img from './components/img';
+import JourneyCarousel from './components/JourneyCarousel';
+import Testimonials from './components/Testimonial';
 
 function App() {
   return (
@@ -27,6 +29,7 @@ function App() {
     <CookingTips/>
     <Milestones/>
     <OurJourney/>
+    <JourneyCarousel />
     <Testimonial/>
     <Youtube/>
     <Img/>

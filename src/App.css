@@ -5,12 +5,23 @@
 }
 
 .navbar {
-  width: 90%;
-  border-radius: 40px;
+  width: 85%;
+  height: 85px;
+  border-radius: 20px;
   margin: auto;
   position: relative;
-  bottom: 20px;
+  bottom: 25px;
+  z-index: 1;
+}
 
+.nav-item {
+  font-family:Arial, Helvetica, sans-serif;
+  font-weight:550;
+  font-style:inherit;
+  font-size: small;
+  display: flex;
+  align-items: center;
+  line-height: calc(1 + 0.3 / var(--font-body-scale));
 }
 
 .supernavbar {
@@ -22,13 +33,18 @@
   font-size: 0.8rem;
 }
 
+.carousel {
+  position: relative;
+  bottom: 85px;
+}
+
 .leftSection {
-  /* background-color: green; */
+
   width: 50%;
 }
 
 .rightSection {
-  /* background-color: black; */
+
   display: flex;
   width: 50%;
   align-items: center;
@@ -290,4 +306,113 @@ body {
 
 .oimg {
  width: 100%;
+}
+
+.empowering-progress {
+  text-align: center;
+  background-color: #e76668; 
+  padding: 50px 20px;
+  color: white;
+  padding: 30px 20%;
+}
+
+.empowering-progress h2 {
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 1.8em;
+  text-align: center;
+  font-family: Lato;
+
+}
+
+.empowering-progress p {
+  font-size: 1.06rem;
+  margin-bottom: 0%;
+  font-family: Lato;
+  text-align: center;
+  font-weight: 400;
+  padding: 30px 10%;
+  display: flex;
+  justify-content: center;
+}
+
+.stats-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.stat-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.stat-item p {
+  font-size: 18px;
+  font-weight: bold;
+  width:200px;
+  padding: 10px 0px;
+}
+
+.icon {
+  width: 100px; 
+  height: 100px;
+}
+
+.numb {
+  font-size: 80px;
+  line-height:6rem;
+}
+
+.product-image {
+  height: 200px;
+  object-fit: contain;
+  margin-bottom: 10px;
+}
+
+.sold-out {
+  font-size: 14px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.card-footer .btn {
+  margin-top: 10px;
+}
+
+.carousel-container {
+padding: 0px 30%;
+bottom: 450px;
+position: relative;
+z-index: 40;
+}
+
+.anotherimgtext {
+  position:relative;
+  bottom:700px;
+  width:800px;
+  left:700px;
+  color: white;
+  z-index: 1;
+  font-size: 23px;
+  font-weight: 400;
+  font-family: "Roboto";
+  text-align: left;
+}
+
+.carousel-control-next {
+  position: absolute;
+  right:-60px;
+  z-index: 1;
+  color: black;
+}
+
+.carousel-control-prev {
+  position: absolute;
+  z-index: 1;
+  left: -60px;
+  color: black;
 }
